@@ -1,0 +1,19 @@
+{
+  "name": "jstack-live-006",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fernandobfr10/jstack-live-006.git",
+  "author": "Fernando Junior <fernandobfr10@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
+}
