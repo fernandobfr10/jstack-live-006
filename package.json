@@ -9,6 +9,7 @@
     "dev": "tsx watch src/index.ts"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20.12.2",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@typescript-eslint/parser": "^7.4.0",
@@ -16,5 +17,9 @@
     "prisma": "^5.11.0",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@prisma/client": "5.11.0",
+    "bcryptjs": "^2.4.3"
   }
 }
